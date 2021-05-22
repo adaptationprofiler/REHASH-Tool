@@ -28,7 +28,7 @@ iii. The page will be frozen while running the simulation. Wait for the simulati
 ​
 iv. You can repeat the same steps with a different IV surface but following the general guidelines mentioned above.
  
-After simulating MNIST without adaptation, you can now run it with heuristic based adaptation and compare different settings. For that, you need to configure the simulation by following below steps
+After simulating MNIST without adaptation, you can now run it with heuristic based adaptation and compare different settings. For that, you need to configure the simulation by following below steps. 
 ​
 i. Click on the gear button (top right) and choose the IV surface
 ​
