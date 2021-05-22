@@ -45,9 +45,9 @@ iv. Enter equation for "Adapt Up" and "Adapt Down" and press "enter" key to see 
 | App-Completion-Time | ```s_appCompTime[n]``` | ```avgAppCompletionTime``` |
 | Task-Count          | ``` s_taskCount[n]```  | ```avgTaskCount```         |
 | Power-Failure-Count | ```s_pFC[n]```         | ```avgpowerFailureCount``` |
-​
+
 Where, the length of the array is History Size + 1. 0th index is the most recent signal value, and last index (n-1) is the oldest. Additionally, your equations MUST have either a ">" or "<" symbol in order for the tool to work. Following are some examples that you can use to run the simulation.
-​
+
 | Signal              | Adapt-Up                                    | Adapt-Down                                  |
 |---------------------|---------------------------------------------|---------------------------------------------|
 | On-Time             | ```s_onTime[0]``` < ```avgOnTime```         | ```s_onTime[0]``` > ```avgOnTime```         |
